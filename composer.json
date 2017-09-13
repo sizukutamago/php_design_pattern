@@ -1,0 +1,17 @@
+{
+  "name": "sizukutamago/design-pattern",
+  "description": "phpでのデザインパターン実装練習",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Iterator\\": "Iterator/"
+    }
+  },
+  "authors": [
+    {
+      "name": "sizukutamago",
+      "email": "sizukutamago@gmail.com"
+    }
+  ]
+}
