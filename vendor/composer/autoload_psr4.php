@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Iterator\\' => array($baseDir . '/Iterator'),
+    'Strategy\\' => array($baseDir . '/strategy'),
+    'Iterator\\' => array($baseDir . '/iterator'),
 );

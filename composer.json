@@ -1,0 +1,16 @@
+{
+    "name": "tanakas/php_design_pattern",
+    "authors": [
+        {
+            "name": "sizukutamago",
+            "email": "tanaka@tam-bourine.co.jp"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Iterator\\": "iterator/",
+            "Strategy\\": "strategy/"
+        }
+    },
+    "require": {}
+}
