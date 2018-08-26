@@ -53,13 +53,15 @@ class Hand
         $this->handValue = $handValue;
     }
 
-    private static function setHand()
+    private static function setHand(): void
     {
-        self::$hand = [
-            new self(self::HANDVALUE_GUU),
-            new self(self::HANDVALUE_CHO),
-            new self(self::HANDVALUE_PAA),
-        ];
+        if (!count(self::$hand)) {
+            self::$hand = [
+                new self(self::HANDVALUE_GUU),
+                new self(self::HANDVALUE_CHO),
+                new self(self::HANDVALUE_PAA),
+            ];
+        }
     }
 
     /**
